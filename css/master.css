@@ -150,15 +150,22 @@ a:hover {
   padding-bottom: 0px;
   margin-top: 10px;
   padding: 10px 21px;
+  transition: 0.5s;
 }
-
+.navbar-default .navbar-nav>li>a:hover {
+  font-weight: 600;
+  transition: 0.5s;
+}
 .navbar-default .dropdown .btn {
   background: transparent;
   padding-top: 18px;
+  transition: 0.5s;
 }
 
 .navbar-default .dropdown .btn:hover {
   color: #1d1e20;
+  font-weight: 600;
+  transition: 0.5s;
 }
 
 .navbar-default .dropdown .btn:focus {
@@ -433,7 +440,16 @@ a:hover {
   /* padding-top: 12vh; */
   justify-content: center;
 }
-
+.banner.contact{
+  height: 464px;
+  background: url(../images/contact.png) 0 0 no-repeat;
+  background-size: cover;
+}
+.banner.case-study{
+  height: 503px;
+  background: url(../images/case-banner.png) 0 0 no-repeat;
+  background-size: cover;
+}
 .banner img {
   width: 100%;
 }
@@ -458,7 +474,7 @@ a:hover {
   padding-bottom: 15px;
   /* font-family: 'Gelasio', serif; */
   font-size: 50px;
-  font-weight: 900;
+  font-weight: 700;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -1172,6 +1188,9 @@ a[aria-expanded="false"] i {
   letter-spacing: normal;
   color: #4a4a4a;
 }
+.simple-p{
+  padding-top: 7px;
+}
 .listone {
   border: solid 1px #d9d9d9;
   padding-bottom: 25px;
@@ -1211,6 +1230,7 @@ a[aria-expanded="false"] i {
   letter-spacing: normal;
   text-align: center;
   color: #3967c7;
+  padding-top: 5px;
 }
 .listone h5 sup{
   font-size: 16px;
@@ -1233,7 +1253,7 @@ a[aria-expanded="false"] i {
   letter-spacing: normal;
   text-align: center;
   color: #4a4a4a;
-  padding-top: 3px;
+  padding-top: 0px;
 }
 .listone ul li{
   font-size: 14px;
@@ -1243,8 +1263,12 @@ a[aria-expanded="false"] i {
   line-height: 2.14;
   letter-spacing: normal;
   color: #4a4a4a;
-  background: url(../images/path.svg) 0 center no-repeat;
+  background: url(../images/path.svg) 0 12px no-repeat;
   padding-left: 22px;
+}
+.last-li{
+  line-height: 1.4!important;
+  padding-top: 4px;
 
 }
 .listone ul li {
@@ -1285,6 +1309,13 @@ a[aria-expanded="false"] i {
   text-align: center;
   color: #4a4a4a;
   padding-top: 3px;
+  
+}
+.listone .p-first{
+  margin-bottom: 4px;
+}
+.listone .p-second{
+  
 }
 .listone-p{
   margin-bottom: 4px;
@@ -1349,6 +1380,17 @@ a[aria-expanded="false"] i {
   border: solid 1px #e1e8fa;
   background-color: #ffffff;
   margin: 0 10px;
+  padding: 4px 15px 4px 4px;
+}
+.filter-box .btn span{
+  background: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  padding-top: 5px;
 }
 .filter-box .btn:focus{
   background: #e1e8fa;
@@ -1356,6 +1398,8 @@ a[aria-expanded="false"] i {
 }
 .filter-box .btn.active {
   background: #e1e8fa;
+  box-shadow: none;
+  font-weight: 600;
 }
 .filter-box .column {
   border-radius: 10px;
@@ -1387,6 +1431,10 @@ a[aria-expanded="false"] i {
   display: inline-block;
 
 }
+.filter-box .filter .btn1 img{
+  height: 15px;
+  margin-left: 10px;
+}
 .filter-box .btn2 {
   font-size: 16px;
     font-weight: bold;
@@ -1412,7 +1460,7 @@ a[aria-expanded="false"] i {
 }
 .carousel-control img {
   background: #183165;
-  padding: 15px;
+  /* padding: 15px; */
   border-radius: 5px;
 }
 .testimonial .carousel-indicators {
@@ -1434,7 +1482,7 @@ a[aria-expanded="false"] i {
   position: absolute;
   top: 40%;
   bottom: 0;
-  right: 15px;
+  right: 21px;
   width: 0;
 }
 .testimonial .carousel-indicators li.active{
@@ -1463,7 +1511,7 @@ a[aria-expanded="false"] i {
   border-radius: 10px;
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
-  padding: 0px 30px 50px;
+  padding: 10px 30px 50px;
 
 }
 .carousel-inner img{
@@ -1529,13 +1577,16 @@ a[aria-expanded="false"] i {
   font-style: normal;
   line-height: 1.43;
   letter-spacing: normal;
-  color: #acacac;
+  color: #4a4a4a;
   border-radius: 3px;
   border: solid 1px #acb8d6;
   background-color: #ffffff;
   padding: 13px;
-  width: 100%;
+  width: 90%;
   margin: 20px 0;
+}
+.form-section input:focus{
+  border: solid 1px #3761ba;
 }
 .form-section textarea {
   color: #acacac;
@@ -1591,6 +1642,10 @@ a[aria-expanded="false"] i {
   color: #4a4a4a;
   padding: 10px 0;
 
+}
+
+.questions-section ul li a img{
+  padding-right: 15px;
 }
 .questions-section ul li:last-child{
   color: #f35229;
