@@ -80,7 +80,7 @@
             <li><a href="#">Design</a></li>
             <li><a href="case-study.html">Case Studies</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">GET MY FREE PROPOSAL</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModal">GET MY FREE PROPOSAL</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -165,6 +165,7 @@
     </div>
   </section>
 
+
   <section class="filter-box sec-padding">
     <div class="container">
       <div class="row">
@@ -221,6 +222,7 @@
       </div>
     </div>
   </section>
+
 
   <hr class="case-study-line">
   <div class="testimonial sec-padding">
@@ -286,12 +288,13 @@
     </div>
   </div>
 
+
   <section class="proposal sec-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
           <h2>Get Your Free PPC Proposal</h2>
-          <a href="#" class="btn">GET MY FREE PROPOSAL</a>
+          <a href="#" data-toggle="modal" data-target="#myModal" class="btn">GET MY FREE PROPOSAL</a>
         </div>
 
         <div class="col-md-4 col-sm-4 col-xs-12">
@@ -326,24 +329,24 @@
             <div class="boxes">
               <ul class="list-unstyled">
                 <h3>Agency</h3>
-                <li><a href="#">Case Studies</a></li>
+                <li><a href="case-study.html">Case Studies</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="contact-us.html">Contact us</a></li>
               </ul>
             </div>
             <div class="boxes">
               <ul class="list-unstyled">
                 <h3>PPC Services</h3>
                 <li><a href="#">PPC Management</a></li>
-                <li><a href="#">Google Ads Management</a></li>
-                <li><a href="#">Paid Social Media Management</a></li>
+                <li><a href="google-ad.html">Google Ads Management</a></li>
+                <li><a href="paid-social.html">Paid Social Media Management</a></li>
               </ul>
             </div>
             <div class="boxes">
               <ul class="list-unstyled">
                 <h3>Design</h3>
-                <li><a href="#">Landing Page Design</a></li>
-                <li><a href="#">Landing Page Agency</a></li>
+                <li><a href="landing-page.html">Landing Page Design</a></li>
+                <li><a href="landing-page.html">Landing Page Agency</a></li>
                 <li><a href="#">Custom Landing Page Design</a></li>
               </ul>
             </div>
@@ -369,15 +372,231 @@
           <div class="copyright">
             <!-- <p>Copyright © 2020 Hey Digital OU. All Rights Reserved</p> -->
             <ul class="list-unstyled">
-              <li><a href="">Terms of service</a></li>
-              <li><a href="">Privacy Policy</a></li>
-              <li><a href="">Cookie Policy</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
   </footer>
+
+
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <a href="" data-dismiss="modal" ><img src="images/close1.svg" alt="" class="modal-close"></a>
+          
+          <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+              <img src="images/soccer.svg" alt="">
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+              <img src="images/soccer-1.svg" alt="">
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+              <img src="images/goal-post.svg" alt="">
+            </div>
+          </div>
+
+          <div class="body-portion">
+            <label>What are your goals? *</label>
+            <div class="dropdown" id="dropdown1">
+              <button id="dLabel" class="dropdown-select dropdown-select1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Select goal
+              </button>
+              <ul class="dropdown-menu" id="dropdown-menu1" aria-labelledby="dLabel">
+                <li>Get more conversions</li>
+                <li>Get more leads/call</li>
+                <li>Lower our cost per conversion</li>
+                <li>Everthing above</li>
+                <li>Other</li>
+              </ul>
+            </div>
+            <label>Whats your monthly PPC ad spend? *</label>
+            <div class="dropdown" id="dropdown2">
+              <button id="dLabel" class="dropdown-select dropdown-select2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Select current spend
+              </button>
+              <ul class="dropdown-menu" id="dropdown-menu2" aria-labelledby="dLabel">
+                <li>Plan one</li>
+                <li>Plan two</li>
+                <li>Plan three</li>
+                <li>Plan four</li>
+              </ul>
+            </div>
+            <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal1" class="btn">Continue</a>
+          </div>
+          <h3>What’s in the Proposal?</h3>
+          <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+            <img src="images/box1.svg" alt="">
+            <h4>Campaign Planning &
+              Strategy</h4>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+            <img src="images/box2.svg" alt="">
+            <h4>Campaign
+              Optimization Tips</h4>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+            <img src="images/box3.svg" alt="">
+            <h4>Custom Pricing</h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- mymodal 1 -->
+  <div id="myModal1" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <a href="" data-dismiss="modal" ><img src="images/close1.svg" alt="" class="modal-close"></a>
+          
+          <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+              <img src="images/soccer-white.svg" alt="">
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+              <img src="images/soccer-1-color.svg" alt="">
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+              <img src="images/goal-post.svg" alt="">
+            </div>
+          </div>
+
+          <div class="body-portion">
+            <label>What service are you looking for? *</label>
+            <div class="dropdown" id="dropdown1">
+              <button id="dLabel" class="dropdown-select dropdown-select1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Select goal
+              </button>
+              <ul class="dropdown-menu" id="dropdown-menu1" aria-labelledby="dLabel">
+                <li>Get more conversions</li>
+                <li>Get more leads/call</li>
+                <li>Lower our cost per conversion</li>
+                <li>Everthing above</li>
+                <li>Other</li>
+              </ul>
+            </div>
+            <label>Whats your monthly budget? *</label>
+            <div class="dropdown" id="dropdown2">
+              <button id="dLabel" class="dropdown-select dropdown-select2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Select current spend
+              </button>
+              <ul class="dropdown-menu" id="dropdown-menu2" aria-labelledby="dLabel">
+                <li>Plan one</li>
+                <li>Plan two</li>
+                <li>Plan three</li>
+                <li>Plan four</li>
+              </ul>
+            </div>
+            <h6>Are you already running ads? *
+
+              <form action="#">
+                <p>
+                  <input type="radio" id="test1" name="radio-group" checked>
+                  <label for="test1">Yes</label>
+                </p>
+                <p class="modal-p">
+                  <input type="radio" id="test2" name="radio-group">
+                  <label for="test2">No</label>
+                </p>
+              </form>
+            </h6>
+            <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal2" class="btn">Continue</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- mymodal 2 -->
+  <div id="myModal2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <a href="" data-dismiss="modal" ><img src="images/close1.svg" alt="" class="modal-close"></a>
+          
+          <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+              <img src="images/soccer-white.svg" alt="">
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center bg-color1">
+              <img src="images/soccer-1.svg" alt="">
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+              <img src="images/goal-post-color.svg" alt="">
+            </div>
+          </div>
+
+          <div class="body-portion col-md-6 col-sm-6 col-xs-12">
+            <label>What's your name? *</label>
+            <input type="text" placeholder="John Deo">
+
+            <label>What's your email? *</label>
+            <input type="text" placeholder="mail@example.com">
+
+            <label>What's your phone number? *</label>
+            <input type="text" placeholder="please include country code">
+
+            <label>What's your website URL? *</label>
+            <input type="text" placeholder="www.example.com">
+
+            <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#myModal2" class="btn">Send my free proposal</a>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="prefar">
+              <div class="prefar1 text-center">
+                <img src="images/group-16.svg" alt="">
+                <h5>Prefer to call?</h5>
+                <h4>Reach us directly to chat with one of our
+                  Google Ads and PPC expert.</h4>
+              </div>
+              <div class="contact">
+                <div class="contact1">
+                  <div class="contact1-img">
+                    <img src="images/skype.svg" alt="">
+                  </div>
+                  <div>
+                    <p>Skype Us</p>
+                    <h3>AdfeulDigital</h3>
+                  </div>
+                  
+                </div>
+                <div class="contact1">
+                  <div class="contact1-img">
+                    <img src="images/whatsapp.svg" alt="">
+                  </div>
+                  <div>
+                    <p>WhatsApp</p>
+                    <h3>+91 8072413128</h3>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 
 
 <!-- Scripts -->
