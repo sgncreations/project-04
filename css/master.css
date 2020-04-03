@@ -1689,7 +1689,7 @@ a[aria-expanded="false"] i {
   width: 85%;
   margin: 20px 0;
 }
-.form-section input.error{
+.form-section input.error, .form-section textarea.error{
   border-color: red;
 }
 .form-section input:focus {
