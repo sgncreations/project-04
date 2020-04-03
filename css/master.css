@@ -384,7 +384,7 @@ a:hover {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 9;
+  z-index: 99;
   background: #dedddd;
   -ms-animation-name: fadeInDown;
   -moz-animation-name: fadeInDown;
@@ -1689,11 +1689,27 @@ a[aria-expanded="false"] i {
   width: 85%;
   margin: 20px 0;
 }
-
+.form-section input.error{
+  border-color: red;
+}
 .form-section input:focus {
   border: solid 1px #3761ba;
 }
-
+.form-section .form-group1{
+  position: relative;
+}
+.form-section label.error {
+  text-align: left;
+  width: 100%;
+  width: 85%;
+  color: red;
+  font-weight: 400;
+  margin-top: -15px;
+  margin-bottom: 0;
+  position: absolute;
+  left: 8%;
+  bottom: -6px;
+}
 .form-section textarea {
   color: #acacac;
   border-radius: 3px;
@@ -1705,7 +1721,11 @@ a[aria-expanded="false"] i {
   min-height: 150px;
   max-width: 100%;
 }
-
+.form-section textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border: solid 1px #3761ba;
+}
 .form-section .btn {
   font-size: 14px;
   font-weight: bold;
