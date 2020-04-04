@@ -603,7 +603,9 @@ b, strong {
   height: 100px;
   align-items: center;
 }
-
+.client-box-padding{
+  padding-right:0 ;
+}
 .client-box .img-box {
   padding: 20px 0;
 }
@@ -613,7 +615,7 @@ b, strong {
   width: 100%;
   /* padding: 0 30px; */
   justify-content: space-between;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .client-box1 .img-box {
@@ -1210,11 +1212,11 @@ a[aria-expanded="false"] i {
 }
 
 .google-box {
-  padding: 0 10px 0 0;
+  padding: 0 30px 0 0;
 }
 
 .new-space {
-  padding-bottom: 5px;
+  padding-bottom: 2px;
 }
 
 .price-list {
@@ -1227,7 +1229,16 @@ a[aria-expanded="false"] i {
 .pricelist-hr {
   margin-bottom: 0;
 }
-
+.price-list h2{
+  font-size: 35px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
 .price-list p {
   font-size: 16px;
   font-weight: normal;
