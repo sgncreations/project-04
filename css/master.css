@@ -2657,7 +2657,7 @@ a[aria-expanded="false"] i {
   }
   .grid h2 {
     font-size: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
   .grid {
     background: #fff;
