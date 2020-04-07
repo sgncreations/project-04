@@ -2316,7 +2316,9 @@ a[aria-expanded="false"] i {
 */
 
 @media only screen and (max-width: 767px) {
-
+  .modal-body h4{
+    margin: 10px 0 30px;
+  }
   .banner p br, .grid h2 br, .ad-management h2 br, .management h3 br, .questions-section p br{
     display: none;
   }
@@ -2425,7 +2427,7 @@ a[aria-expanded="false"] i {
     padding: 30px 0px 40px;
   }
   #myModal2 .body-portion {
-    max-width: 95%;
+    max-width: 100%;
   }
   .prefar .contact1 {
     align-items: center;
@@ -2751,4 +2753,11 @@ a[aria-expanded="false"] i {
 ============================================================
 */
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 359px) {
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 18px;
+  }
+}
