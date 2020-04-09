@@ -2319,6 +2319,13 @@ a[aria-expanded="false"] i {
   .modal-body h4{
     margin: 10px 0 30px;
   }
+  .modal-content {
+    box-shadow: none;
+    border: 0px solid rgba(0,0,0,.2);
+  }
+  .filter-box{
+    padding-top: 30px;
+  }
   .banner p br, .grid h2 br, .ad-management h2 br, .management h3 br, .questions-section p br{
     display: none;
   }
