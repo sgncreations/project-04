@@ -163,6 +163,10 @@ a:hover {
   padding-top: 18px;
   transition: 0.5s;
 }
+.navbar-default .dropdown .btn.active{
+  font-weight: bold;
+  box-shadow: none;
+}
 
 .navbar-default .dropdown .btn:hover {
   color: #1d1e20;
@@ -247,7 +251,9 @@ a:hover {
 .navbar-default .navbar-nav>li>a {
   position: relative;
 }
-
+.navbar-default .navbar-nav>li>a.active {
+  font-weight: bold;
+}
 .navbar-default a {
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
@@ -257,7 +263,7 @@ a:hover {
 }
 
 .navbar-default .navbar-brand1 {
-  padding-top: 12px;
+  padding-top: 18px;
 }
 
 /* 
@@ -615,7 +621,7 @@ b, strong {
   width: 100%;
   /* padding: 0 30px; */
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .client-box1 .img-box {
@@ -639,7 +645,7 @@ b, strong {
 }
 
 .client-box1 .img-box p {
-  margin-top: 25px;
+  margin-top: 17px;
   font-weight: 600;
 }
 
@@ -1211,6 +1217,7 @@ a[aria-expanded="false"] i {
 
 .modal-content {
   box-shadow: 0 0px 1px rgba(0, 0, 0, .5);
+  border: 0px solid rgba(0,0,0,.2);
 }
 
 .google-box {
@@ -1903,10 +1910,12 @@ a[aria-expanded="false"] i {
   color: #ffffff;
   width: 100%;
   padding: 15px;
-  margin-top: 30px;
-  margin-bottom: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-
+#service .body-portion .btn {
+  margin-bottom: 30px;
+}
 .modal-body h3 {
   font-size: 22px;
   font-weight: bold;
@@ -2031,6 +2040,10 @@ a[aria-expanded="false"] i {
   letter-spacing: normal;
   color: #4a4a4a;
 }
+#service .modal h6{
+  display: flex;
+  justify-content: space-between;
+}
 
 .modal p {
   padding: 0 7px;
@@ -2042,7 +2055,7 @@ a[aria-expanded="false"] i {
 }
 
 .modal-p {
-  padding-right: 0px;
+  padding-right: 0px!important;
 }
 
 .prefar1 {
